@@ -26,7 +26,7 @@ export default function AddCard() {
 
 
   return (
-    <>
+    <div>
       <div className="d-flex">
         <NavBar
           linkName={currentDeck.name}
@@ -38,6 +38,6 @@ export default function AddCard() {
         <h2>{currentDeck.name}: Add Card</h2>
         <CardForm />
       </div>
-    </>
+    </div>
   );
 }

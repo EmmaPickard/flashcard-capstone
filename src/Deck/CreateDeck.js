@@ -5,7 +5,7 @@ import DeckForm from "./DeckForm";
 export default function CreateDeck() {
 
   return (
-    <>
+    <div>
       <div className="d-flex">
         <NavBar pageName="Create Deck" />
       </div>
@@ -13,6 +13,6 @@ export default function CreateDeck() {
         <h2>Create Deck</h2>
         <DeckForm mode="create" />
       </div>
-    </>
+    </div>
   );
 }

@@ -21,7 +21,7 @@ export default function DeckList({ decks }) {
 
 
   return (
-    <>
+    <div>
       {decks.map((deck) => (
         <div className="card " key={deck.id}>
           <div className="card-body">
@@ -64,6 +64,6 @@ export default function DeckList({ decks }) {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 }

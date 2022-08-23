@@ -41,14 +41,14 @@ export default function Deck() {
 
 
   return (
-    <>
+    <div>
       <NavBar pageName={deck.name} />
       {!deck.id ? (
-        <>
+        <div>
           <h2>Loading deck...</h2>
-        </>
+        </div>
       ) : (
-        <>
+        <div>
           <div className="d-flex flex-column">
             <div className="d-flex flex-column">
               <h2>{deck.name}</h2>
@@ -87,8 +87,8 @@ export default function Deck() {
             <h2>Cards</h2>
             <CardList cards={deck.cards} />
           </div>
-        </>
+        </div>
       )}
-    </>
+    </div>
   );
 }

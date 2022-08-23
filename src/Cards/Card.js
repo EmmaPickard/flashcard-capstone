@@ -7,7 +7,7 @@ export default function Card({ card, count, index, flipped, flip, next }) {
     </button>
   );
   return (
-    <>
+    <div>
       <div className="card">
         <div className="card-body">
           <h4 className="card-title">
@@ -24,6 +24,6 @@ export default function Card({ card, count, index, flipped, flip, next }) {
           {flipped && nextButton}
         </div>
       </div>
-    </>
+    </div>
   );
 }

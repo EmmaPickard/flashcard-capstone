@@ -58,7 +58,7 @@ export default function Study() {
   };
 
   return (
-    <>
+    <div>
       <div className="d-flex">
         <NavBar
           linkName={deck.name}
@@ -79,6 +79,6 @@ export default function Study() {
           next={handleNext}
         />
       )}
-    </>
+    </div>
   );
 }

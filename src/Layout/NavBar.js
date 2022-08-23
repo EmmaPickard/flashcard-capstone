@@ -7,14 +7,14 @@ export default function NavBar({
   pageName = "",
 }) {
   const multi = (
-    <>
+    <div>
       <li className="breadcrumb-item">
         <Link to={link}>{linkName}</Link>
       </li>
       <li className="breadcrumb-item active" aria-current="page">
         {pageName}
       </li>
-    </>
+    </div>
   );
   const current = (
     <li className="breadcrumb-item active" aria-current="page">

@@ -1,0 +1,21 @@
+h1.flip  {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color:dimgrey;
+}
+h2.flip  {
+    font-family: 'Quicksand', sans-serif;
+    color:dimgrey;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    color:black;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+    font-family: 'Quicksand', sans-serif;
+}
